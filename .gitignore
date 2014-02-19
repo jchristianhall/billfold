@@ -39,3 +39,7 @@ app/_bower_components
 dist
 node_modules
 .tmp
+
+# Ignore project files
+billfold.sublime-project
+billfold.sublime-workspace
