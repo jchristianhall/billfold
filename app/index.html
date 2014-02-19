@@ -9,6 +9,15 @@ title: Billfold
     <!-- Status bar -->
     <div class="status-bar"></div>
 
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Paid Modal -->
+    <div class="paid-modal">
+      <p>Paid!</p>
+      <div class="check-icon"></div>
+    </div>
+
     <!-- Opening screen -->
     <section class="opening-screen">
       <div class="icon"></div>
@@ -28,7 +37,7 @@ title: Billfold
       <div class="home-cell home-cards">
         <div class="home-cell-top">
           <div class="cards-icon"></div>
-          <h1>Cards</h1>
+          <h3>Cards</h3>
           <div class="next-icon"></div>
         </div>
         <hr class="home-divider">
@@ -46,7 +55,7 @@ title: Billfold
       <div class="home-cell home-pay">
         <div class="home-cell-top">
           <div class="pay-icon"></div>
-          <h1>Pay</h1>
+          <h3>Pay</h3>
           <div class="next-icon"></div>
         </div>
         <hr class="home-divider">
@@ -56,26 +65,26 @@ title: Billfold
         </div>
       </div>
 
-    <!-- Transactions section -->
+      <!-- Transactions section -->
       <div class="home-cell home-transactions">
         <div class="home-cell-top">
           <div class="transactions-icon"></div>
-          <h1>Transactions</h1>
+          <h3>Transactions</h3>
           <div class="next-icon"></div>
         </div>
         <hr class="home-divider">
         <div class="home-cell-bottom">
-          <p class="subtitle">Last Transaction</p>
-          <p class="cell-title">Freddy's BBQ</p>
-          <p class="cell-price">$14.52</p>
+          <p class="home-subtitle">Last Transaction</p>
+          <p class="home-cell-title">Freddy's BBQ</p>
+          <p class="home-cell-price">$14.52</p>
         </div>
       </div>
 
-    <!-- Deals section -->
+      <!-- Deals section -->
       <div class="home-cell home-deals">
         <div class="home-cell-top">
           <div class="deals-icon"></div>
-          <h1>Deals</h1>
+          <h3>Deals</h3>
           <div class="next-icon"></div>
         </div>
         <hr class="home-divider">
@@ -85,6 +94,73 @@ title: Billfold
           <button class="button-small">Online</button>
         </div>
       </div>
+    </section>
+
+    <!-- Cards screen -->
+    <section class="cards-screen">
+
+      <!-- Menu Bar -->
+      <div class="menu-bar">
+        <div class="back-icon"></div>
+        <div class="menu-bar-title">Cards</div>
+        <div class="add-icon"></div>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter">
+        <div class="filter-title">All</div>
+        <div class="filter-view-icon"></div>
+      </div>
+
+      <!-- Favourites -->
+      <div class="cell-section">
+        <div class="cell-title">Favourites</div>
+        <div class="cell">
+          <div class="favourite-icon"></div>
+          <h3>Main Credit</h3>
+          <p class="cell-price">$321.12</p>
+        </div>
+        <div class="cell">
+          <div class="favourite-icon"></div>
+          <h3>Gas</h3>
+          <p class="cell-price">$123.41</p>
+        </div>
+      </div>
+
+      <!-- Credit -->
+      <div class="cell-section">
+        <div class="cell-title">Credit</div>
+        <div class="cell">
+          <h3>Cash Back</h3>
+          <p class="cell-price">$238.00</p>
+        </div>
+        <div class="cell">
+          <h3>Chase</h3>
+          <p class="cell-price">$23.36</p>
+        </div>
+      </div>
+
+      <!-- Debit -->
+      <div class="cell-section">
+        <div class="cell-title">Debit</div>
+        <div class="cell">
+          <h3>Bank of America</h3>
+          <p class="cell-price">$481,516.23</p>
+        </div>
+      </div>
+
+      <!-- Membership -->
+      <div class="cell-section">
+        <div class="cell-title">Membership</div>
+        <div class="cell">
+          <h3>Metrorail</h3>
+        </div>
+        <div class="cell">
+          <h3>Sancorp</h3>
+        </div>
+      </div>
+
+
     </section>
 
   </div>

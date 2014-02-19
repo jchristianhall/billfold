@@ -10,16 +10,14 @@
 .screen-container {
   @include size(321px 569px);
   @include position(relative, 118px 0 0 32px);
-  background-color: #000;
   overflow: auto;
+  background-color: #000;
 }
 
 /* Opening Screen */
 .opening-screen {
   @include size(100%);
-  position: relative;
-  z-index: 2000;
-  //display: none;
+  display: none;
   background: url('../img/lock.png') center no-repeat;
   background-size: 321px 569px;
   .icon {
@@ -39,10 +37,8 @@
 
 /* Home Screen */
 .home-screen {
-  display: none;
-  position: relative;
   @include size(100%);
-  z-index: 1900;
+  display: none;
   background-color: #F5F5F5;
 }
 .home-cell {
@@ -65,3 +61,25 @@
 .home-pay { z-index: 4; }
 .home-transactions { z-index: 3; }
 .home-deals { z-index: 2; }
+
+/* Cards Screen */
+.cards-screen {
+  @include size(100%);
+  //display: none;
+  background-color: #F5F5F5;
+}
+
+/* Paid Modal */
+.paid-modal {
+  @include size(100% 150px);
+  @include position(absolute, 200px 0 0 0);
+  z-index: 2060;
+  display: none;
+  background-color: rgba(39, 174, 96, 0.6);
+  p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.75em;
+    margin-bottom: 15px;
+  }
+}

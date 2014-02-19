@@ -1,20 +1,32 @@
 /* Typography */
-h1 {
+h3 {
   float: left;
   margin: 16px 0;
   font-size: 1.15em;
   font-weight: normal;
 }
-.subtitle {
+.menu-bar-title {
+  color: #fff;
+  font-size: 1.15em;
+  text-align: center;
+  padding-top: 30px;
+}
+.filter-title {
+  text-align: center;
+  padding-top: 16px;
+}
+
+/* Home */
+.home-subtitle {
   color: #7c7c7c;
   font-size: 0.7em;
   margin: 10px 0 5px 0;
 }
-.cell-title {
+.home-cell-title {
   font-size: 0.9em;
   margin: 0;
 }
-.cell-price {
+.home-cell-price {
   float: right;
   margin: -17px 15px 0 0;
   font-size: 0.9em;
