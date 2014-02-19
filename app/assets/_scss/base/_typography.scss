@@ -16,6 +16,24 @@ h3 {
   padding-top: 16px;
 }
 
+/* Cells */
+.cell-section-title {
+  color: #7c7c7c;
+  font-size: 0.7em;
+  margin: 5px $sidepad;
+}
+.cell-title {
+  padding: 12px 0;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: normal;
+}
+.cell-price {
+  float: right;
+  margin: -35px 15px 0 0;
+  font-size: 1.1em;
+}
+
 /* Home */
 .home-subtitle {
   color: #7c7c7c;

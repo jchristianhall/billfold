@@ -6,7 +6,6 @@
   background-color: $main;
   box-shadow: $block-shadow;
 }
-
 .menu-bar {
   @include size(100% 64px);
   position: relative;
@@ -28,6 +27,27 @@
   z-index: 2050;
   display: none;
   background-color: rgba(0,0,0,0.4);
+}
+
+/* Cells */
+.cell {
+  @include size(100%);
+  background-color: #fff;
+  padding-left: $sidepad;
+  cursor: pointer;
+  &:first-child {
+    border-top: $border;
+  }
+  &:last-child {
+    border-bottom: $border;
+  }
+}
+.cell-divider {
+  @include size(310px 1px);
+  float: right;
+  margin: 0;
+  border: none;
+  background-color: $lines;
 }
 
 /* Buttons */
@@ -55,6 +75,7 @@
   @include size(100% 54px);
   background-color: #fff;
   border-bottom: $border;
+  cursor: pointer;
 }
 
 /* Icons */
@@ -64,6 +85,15 @@
   padding: 60px 30px 0 0;
   background: url('../img/next-icon.png') center no-repeat;
   background-size: 8px 13px;
+}
+.filter-view-icon {
+  @include size(8px 13px);
+  float: right;
+  margin-top: -18px;
+  padding-right: 30px;
+  background: url('../img/next-icon.png') center no-repeat;
+  background-size: 8px 13px;
+  @include transform(rotate(90deg));
 }
 .check-icon {
   @include size(38px);
@@ -126,11 +156,10 @@
   background: url('../img/deals-icon.png') center no-repeat;
   background-size: 29px 29px;
 }
-
-/* Decorative */
-.home-divider {
-  @include size(261px 1px);
-  margin: 0 0 0 25px;
-  border: none;
-  background-color: $lines;
+.favourite-active-icon {
+  @include size(29px 28px);
+  float: left;
+  margin: 10px $sidepad 0 0;
+  background: url('../img/favourite-active-icon.png') center no-repeat;
+  background-size: 29px 28px;
 }
