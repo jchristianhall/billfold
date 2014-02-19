@@ -65,8 +65,69 @@
 /* Cards Screen */
 .cards-screen {
   @include size(100%);
+  display: none;
+  background-color: #F5F5F5;
+}
+
+/* Add Card Screen */
+.add-card-screen {
+  @include size(100%);
   //display: none;
   background-color: #F5F5F5;
+
+  .add-card-input-line {
+    border-radius: 3px;
+    border: 1px solid $lines;
+    @include size(97% 30px);
+    margin-right: $sidepad;
+    padding: 0 10px;
+    text-align: left;
+    display: inline-block;
+    &:focus {
+      outline: none !important;
+      border-color: $main;
+    }
+  }
+
+  .add-card-input-inline {
+  @include size(100%);
+  //display: none;
+  border-radius: 3px;
+  border: 1px solid $lines;
+  @include size(47px 30px);
+  margin-right: $sidepad;
+  padding: 0 10px;
+  text-align: left;
+  display: inline-block;
+  &:focus {
+    outline: none !important;
+    border-color: $main;
+  }
+}
+
+  .add-card-input-sections {
+    font-size: 0.9em;
+    margin-left: 10px;
+  }
+
+  .submit-button {
+    background: #A4A4A4;
+    border: none;
+    position: absolute;
+    border-radius: 3px;
+    width: 300px;
+    height: 40px;
+    &:focus {
+      outline: none !important;
+      background: $main;
+    }
+  }
+
+  .submit-button-cell {
+    margin: 10px;
+    padding-top: 5px;
+  }
+
 }
 
 /* Paid Modal */
