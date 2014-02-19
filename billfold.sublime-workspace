@@ -1,0 +1,415 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"current",
+				"currentVisType"
+			],
+			[
+				"rese",
+				"resetParameters"
+			],
+			[
+				"remove",
+				"removeView"
+			],
+			[
+				"updateA",
+				"updateActiveMap"
+			],
+			[
+				"relaio",
+				"relationalColorMethod"
+			],
+			[
+				"hierarchica",
+				"hierarchicalColorMethod"
+			],
+			[
+				"map",
+				"map"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"inter",
+				"intervalClickEvent"
+			],
+			[
+				"interval",
+				"intervalParameter"
+			],
+			[
+				"vistype",
+				"visTypeState"
+			],
+			[
+				"dataType",
+				"dataTypeState"
+			],
+			[
+				"dataTypeArr",
+				"dataTypeArrays0"
+			],
+			[
+				"dataTypeInfo",
+				"dataTypeInfoArray0"
+			],
+			[
+				"relat",
+				"relational"
+			],
+			[
+				"visty",
+				"visTypeInfoArray"
+			],
+			[
+				"spacing",
+				"letter-spacing"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 239.0,
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint Current File"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Christian/Sites/billfold/index.html",
+		"/Users/Christian/Downloads/gui/app.js",
+		"/Users/Christian/Downloads/gui/framer/views.gui.js",
+		"/Users/Christian/Downloads/livefyre.json",
+		"/Users/Christian/Downloads/index.html",
+		"/Users/Christian/Downloads/livefyre.js",
+		"/Users/Christian/Downloads/Chart.min.js",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/Christian/Sites/ktr/app/styles/main.scss",
+		"/Users/Christian/Sites/ktr/app/scripts/views/old/appView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/old/colorMapView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/templates/colorMaps.ejs",
+		"/Users/Christian/Sites/ktr/app/scripts/views/old/visView.js",
+		"/Users/Christian/Sites/ktr/Gruntfile.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/old/parameterView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/old/paneView.js",
+		"/Users/Christian/Sites/ktr/backbone example/js/views/app-view.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/ColorMapsView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/DataTypeView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/CoreView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/models/Contents.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/paneView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/App.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/visView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/colorMapView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/parameterView.js",
+		"/Users/Christian/Sites/ktr/app/scripts/models/info.js",
+		"/Users/Christian/Sites/ktr/app/scripts/models/map.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/appView.js",
+		"/Users/Christian/.bash_profile",
+		"/Users/Christian/Documents/Developer/iOS/malibu/.git/COMMIT_EDITMSG",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr v2/script/script.js",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr v2/script/Interface.js",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr v2/script/ColorMap.js",
+		"/Users/Christian/Sites/ktr/.tmp/scripts/templates.js",
+		"/Users/Christian/Sites/ktr/app/scripts/templates/nodeColorMaps.ejs",
+		"/Users/Christian/Sites/ktr/.jshintrc",
+		"/Users/Christian/Sites/ktr/app/scripts/models/utils.js",
+		"/Users/Christian/Sites/ktr/app/scripts/main.js",
+		"/Users/Christian/Sites/ktr/npm-debug.log",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/Tomorrow Color Schemes/README.md",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr v2/script/Visualization.js",
+		"/Users/Christian/Sites/ktr/bower.json",
+		"/Users/Christian/Sites/ktr/package.json",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr v2/index.html",
+		"/Users/Christian/Sites/ktr/app/scripts/templates/panes.ejs",
+		"/Users/Christian/Sites/ktr/app/scripts/templates/parameters.ejs",
+		"/Users/Christian/Sites/ktr/backbone example/js/models/todo.js",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr v2/script/Parameter.js",
+		"/Users/Christian/Sites/ktr/app/scripts/templates/ordinal.ejs",
+		"/Users/Christian/Sites/ktr/app/scripts/views/visTypeView.js",
+		"/Users/Christian/Sites/ktr/backbone example/js/collections/todos.js",
+		"/Users/Christian/Documents/Developer/iOS/malibu/.git/MERGE_MSG",
+		"/Users/Christian/.ssh/id_rsa",
+		"/Users/Christian/Sites/ktr/app/scripts/appInfo.js",
+		"/Users/Christian/Sites/ktr/app/scripts/views/barView.js",
+		"/Users/Christian/Sites/ktrbb/app/scripts/templates/parameters.ejs",
+		"/Users/Christian/Sites/ktrbb/app/scripts/templates/panes.ejs",
+		"/Users/Christian/Sites/ktr/script/script.js",
+		"/Users/Christian/Sites/ktrbb/app/scripts/models/map.js",
+		"/Users/Christian/Sites/ktrbb/app/index.html",
+		"/Users/Christian/Sites/ktrbb/app/scripts/views/paneView.js",
+		"/Users/Christian/Sites/ktrbb/app/scripts/views/appView.js",
+		"/Users/Christian/Sites/ktrbb/app/scripts/appInfo.js",
+		"/Users/Christian/Sites/ktrbb/app/scripts/main.js",
+		"/Users/Christian/Sites/ktrbb/Gruntfile.js",
+		"/Users/Christian/Sites/ktr/.gitignore",
+		"/Users/Christian/Sites/ktrbb/app/styles/main.scss",
+		"/Users/Christian/Sites/ktrbb/.tmp/scripts/templates.js",
+		"/Users/Christian/Sites/ktrbb/app/scripts/templates/templates.ejs",
+		"/Users/Christian/Sites/ktrbb/app/scripts/views/barView.js",
+		"/Users/Christian/Sites/ktrbb/package.json",
+		"/Users/Christian/Sites/ktrbb/.gitattributes",
+		"/Users/Christian/Sites/ktrbb/.gitignore",
+		"/Users/Christian/Sites/ktrbb/.editorconfig",
+		"/Users/Christian/Sites/ktrbb/.bowerrc",
+		"/Users/Christian/Sites/ktrbb/.jshintrc",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/User/JavaScript.sublime-settings",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/SublimeRope/SublimeRope.sublime-settings",
+		"/Users/Christian/Sites/ktr/index.html",
+		"/Users/Christian/Sites/ktr/style/sass/style.scss",
+		"/Users/Christian/Sites/ktrbb/bower.json",
+		"/Users/Christian/Sites/ktrbb/dist/styles/4c53f50c.main.css",
+		"/Users/Christian/Sites/ktrbb/dist/index.html",
+		"/Users/Christian/Sites/ktrbb/dist/styles/main.css",
+		"/Users/Christian/Sites/ktrbb/dist/css/main.css",
+		"/Users/Christian/Sites/ktrbb/app/styles/sass/style.scss",
+		"/Users/Christian/Sites/ktrbb/dist/styles/css/5274411a.style.css",
+		"/Users/Christian/Sites/ktrbb/dist/styles/css/b31ab1a2.main.css",
+		"/Users/Christian/Sites/ktrbb/app/styles/css/main.css",
+		"/Users/Christian/Sites/css/style.css",
+		"/Users/Christian/Sites/ktr/test.html",
+		"/Users/Christian/Documents/Developer/iOS/Malibu/Malibu/Images.xcassets/AppIcon.appiconset/Contents.json",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/Christian/Documents/Developer/Frameworks/Animate/_animateconfig.scss",
+		"/Users/Christian/Sites/indiebundles/style/scss/style.scss",
+		"/Users/Christian/Sites/ktr/readme.md",
+		"/Users/Christian/Sites/wbv3/style.css",
+		"/Users/Christian/Documents/Developer/Work/T.J. Jankun-Kelly/ktr/js/script.js",
+		"/Users/Christian/Sites/ktr/script/colormaps.js",
+		"/Users/Christian/Sites/ktr/script/parameters.js",
+		"/Users/Christian/Sites/ktr/script/interface.js",
+		"/Users/Christian/Sites/ktr/script/visualizations.js",
+		"/Volumes/Media/Users/Christian/Desktop/Developer/Work/T.J. Jankun-Kelly/ktr/js/script.js",
+		"/Users/Christian/Downloads/config.json",
+		"/Users/Christian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Volumes/Media/Users/Christian/Desktop/Developer/Work/T.J. Jankun-Kelly/ktr/css/style.css",
+		"/Volumes/Media/Users/Christian/Desktop/Developer/Work/T.J. Jankun-Kelly/ktr/index.html",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/interface.js",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/visualisations.js",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/script.js",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/arrays.js",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/Pane.js",
+		"/Volumes/Media/Users/Christian/Sites/ktr/index.html",
+		"/Volumes/Media/Users/Christian/Sites/portfolio/index.html",
+		"/Volumes/Media/Users/Christian/Desktop/Developer/Frameworks/Animation/animate.scss",
+		"/Volumes/Media/Users/Christian/Desktop/Developer/Frameworks/Animation/_animate.scss",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/imports.js",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/script.coffee",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/coffee/script.coffee",
+		"/Volumes/Media/Users/Christian/Sites/ktr/script/coffee/script.js",
+		"/Volumes/Media/Users/Christian/Desktop/Test 1 Topics",
+		"/Volumes/Media/Users/Christian/Desktop/functions.js",
+		"/Volumes/Media/Users/Christian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Volumes/Media/Users/Christian/Downloads/readability_reading_list_2013-01-23 16_01_48.952676.json"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"set",
+			"ordinal",
+			"\"",
+			"state",
+			"script",
+			"fav",
+			"fonts",
+			"img",
+			"concat",
+			"main",
+			"css",
+			"ordinalMap",
+			"scale",
+			"float",
+			"documentation",
+			"display",
+			"#display",
+			"font-family",
+			"$heading",
+			"$medGrey",
+			"$mediumGrey",
+			"$lightGrey",
+			"highlight",
+			"\": "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"nominal",
+			"'",
+			"images",
+			"$highlight",
+			"$medium",
+			"$light"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true
+}
