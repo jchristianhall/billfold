@@ -1,13 +1,45 @@
 /* global $ */
 'use strict';
-$('.opening-screen .icon').click(function ()
+$('.opening .icon').click(function ()
 {
-  $('.opening-screen').fadeOut('slow');
-  $('.home-screen').delay(500).fadeIn('slow');
+  $('.opening').fadeOut('slow');
+  $('.home').delay(500).fadeIn('slow');
 });
 
-$('.avatar').click(function ()
+/* Forward */
+$('.home-cards').click(function ()
 {
-  $('.home-screen').fadeOut('slow');
-  $('.opening-screen').delay(500).fadeIn('slow');
+  $('.home').fadeOut('slow');
+  $('.cards').delay(500).fadeIn('slow');
+});
+
+$('.home-pay').click(function ()
+{
+  $('.home').fadeOut('slow');
+  $('.pay').delay(500).fadeIn('slow');
+});
+
+$('.home-transactions').click(function ()
+{
+  $('.home').fadeOut('slow');
+  $('.transactions-cards').delay(500).fadeIn('slow');
+});
+
+$('.home-deals').click(function ()
+{
+  $('.home').fadeOut('slow');
+  $('.deals').delay(500).fadeIn('slow');
+});
+
+/* Back */
+$('.cards .back-icon').click(function ()
+{
+  $('.cards').fadeOut('slow');
+  $('.home').delay(500).fadeIn('slow');
+});
+
+$('.transactions-cards .back-icon').click(function ()
+{
+  $('.transactions-cards').fadeOut('slow');
+  $('.home').delay(500).fadeIn('slow');
 });

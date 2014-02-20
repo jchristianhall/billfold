@@ -18,7 +18,7 @@ h3 {
 
 /* Cells */
 .cell-section-title {
-  color: #7c7c7c;
+  color: $subtitle;
   font-size: 0.7em;
   margin: 5px $sidepad;
 }
@@ -28,6 +28,12 @@ h3 {
   font-size: 1.1em;
   font-weight: normal;
 }
+.cell-subtitle {
+  font-size: 0.7em;
+  margin: 0;
+  padding-bottom: 12px;
+  color: $subtitle;
+}
 .cell-price {
   float: right;
   margin: -35px 15px 0 0;
@@ -36,7 +42,7 @@ h3 {
 
 /* Home */
 .home-subtitle {
-  color: #7c7c7c;
+  color: $subtitle;
   font-size: 0.7em;
   margin: 10px 0 5px 0;
 }
