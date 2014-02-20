@@ -195,7 +195,7 @@ $('.transactions-cards .back-icon').click(function ()
 
 $('.transactions .back-icon').click(function ()
 {
-  backward('.transactions', '.home');
+  backward('.transactions', '.transactions-cards');
 });
 
 $('.deals .back-icon').click(function ()
