@@ -51,6 +51,12 @@
   @include size(100% 45px);
   cursor: pointer;
 }
+.home-divider {
+  @include size(261px 1px);
+  margin: 0 0 0 25px;
+  border: none;
+  background-color: $lines;
+}
 .home-cell-bottom {
   margin: 5px 0 15px 14px;
   .button-small {
@@ -75,41 +81,29 @@
   //display: none;
   background-color: #F5F5F5;
 
-  .add-card-input-line {
-    border-radius: 3px;
-    border: 1px solid $lines;
-    @include size(97% 30px);
-    margin-right: $sidepad;
-    padding: 0 10px;
-    text-align: left;
-    display: inline-block;
-    &:focus {
-      outline: none !important;
-      border-color: $main;
-    }
-  }
-
-  .add-card-input-inline {
-  @include size(100%);
-  //display: none;
-  border-radius: 3px;
-  border: 1px solid $lines;
-  @include size(47px 30px);
-  margin-right: $sidepad;
-  padding: 0 10px;
-  text-align: left;
-  display: inline-block;
-  &:focus {
-    outline: none !important;
-    border-color: $main;
-  }
-}
-
-  .add-card-input-sections {
+  .add-card-input-sections{
     font-size: 0.9em;
     margin-left: 10px;
+    input {
+      border-radius: 3px;
+      border: 1px solid $lines;
+      margin-right: $sidepad;
+      padding: 0 10px;
+      text-align: left;
+      &:focus {
+        outline: none !important;
+        border-color: $main;
+      }
+    }
+    .add-card-input-line {
+      @include size(97% 30px);
+    }
+    .add-card-input-inline {
+      @include size(47px 30px);
+      display: inline-block;
+    }
   }
-
+  
   .submit-button {
     background: #A4A4A4;
     border: none;
@@ -117,17 +111,17 @@
     border-radius: 3px;
     width: 300px;
     height: 40px;
+    color: #ffffff;
+    font-size: 0.9em;
     &:focus {
       outline: none !important;
       background: $main;
     }
   }
-
   .submit-button-cell {
     margin: 10px;
     padding-top: 5px;
   }
-
 }
 
 /* Paid Modal */
