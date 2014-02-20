@@ -13,11 +13,15 @@
   overflow: auto;
   background-color: #000;
 }
-
-/* Opening Screen */
-.opening-screen {
+.screen {
   @include size(100%);
   display: none;
+  background-color: #F5F5F5;
+}
+
+/* Opening Screen */
+.opening {
+  display: block;
   background: url('../img/lock.png') center no-repeat;
   background-size: 321px 569px;
   .icon {
@@ -36,10 +40,8 @@
 }
 
 /* Home Screen */
-.home-screen {
-  @include size(100%);
-  display: none;
-  background-color: #F5F5F5;
+.home {
+  //display: block;
 }
 .home-cell {
   position: relative;
@@ -70,9 +72,7 @@
 
 /* Cards Screen */
 .cards-screen {
-  @include size(100%);
-  display: none;
-  background-color: #F5F5F5;
+  //display: none;
 }
 
 /* Add Card Screen */
@@ -122,6 +122,22 @@
     margin: 10px;
     padding-top: 5px;
   }
+}
+
+/* Transactions - Cards Screen */
+.transactions-cards {
+  //display: block;
+  .cell-title {
+    padding-bottom: 0;
+  }
+  .cell-price {
+    margin-top: -43px;
+  }
+}
+
+/* Transactions Screen */
+.transactions {
+  //display: block;
 }
 
 /* Paid Modal */
