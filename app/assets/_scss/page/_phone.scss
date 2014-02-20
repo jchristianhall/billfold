@@ -33,6 +33,15 @@
   }
 }
 
+/* Passcode Screen */
+.passcode-placeholder {
+  @include size(321px 569px);
+  @include position(absolute, 0px 0 0 0);
+  background: url('../img/passcode-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
+}
+
 /* Home Screen */
 .home-cell {
   position: relative;

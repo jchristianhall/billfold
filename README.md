@@ -1,6 +1,9 @@
 # Billfold
 
-[Describe the project.]
+This is a rough prototype of an interface I designed for a Human-computer
+interaction course. Plenty of code is dirty and needs to be refactored, and
+a number of placeholder images were used in place of actual implementations for
+screens.
 
 ## Project Setup
 This project utilizes Playbook, reference Playbook's [setup guide](https://github.com/centresource/generator-playbook#get-started).
@@ -23,7 +26,7 @@ This project utilizes Playbook, reference Playbook's [setup guide](https://githu
 ## Bootstrap Components
 
 ### CSS
-- None
+Animate.scss (https://github.com/ianstormtaylor/animate.sass)
 
 ### JavaScripts
 - None

@@ -13,6 +13,7 @@ $('.opening').show();
 // Start
 $('.opening').addClass('bounce-in animated');
 
+/* Animation functions */
 function forward(current, next)
 {
   $(current).addClass('fade-left-out animated');
@@ -79,10 +80,14 @@ function paid()
 
 $('.opening .icon').click(function ()
 {
-  forward('.opening', '.home');
+  forward('.opening', '.passcode');
 });
 
 /* Forward */
+$('.passcode-placeholder').click(function ()
+{
+  forward('.passcode', '.home');
+});
 $('.home-cards .home-cell-top').click(function ()
 {
   forward('.home', '.cards');
