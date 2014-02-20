@@ -30,7 +30,7 @@ title: Billfold
       <div class="menu-bar-tall">
         <div class="settings-icon"></div>
         <div class="avatar"></div>
-        <div class="add-icon"></div>
+        <div class="add-icon" id="home-add"></div>
       </div>
 
       <!-- Cards section -->
@@ -42,12 +42,12 @@ title: Billfold
         </div>
         <hr class="home-divider">
         <div class="home-cell-bottom">
-          <button class="button-small">Add Card</button>
-          <button class="button-small">Credit</button>
-          <button class="button-small">Debit</button>
-          <button class="button-small">Membership</button>
-          <button class="button-small">Rewards</button>
-          <button class="button-small">Favourites</button>
+          <button class="button-small" id="cards-add-card">Add Card</button>
+          <button class="button-small" id="cards-credit">Credit</button>
+          <button class="button-small" id="cards-debit">Debit</button>
+          <button class="button-small" id="cards-membership">Membership</button>
+          <button class="button-small" id="cards-rewards">Rewards</button>
+          <button class="button-small" id="cards-favourites">Favourites</button>
         </div>
       </div>
 
@@ -60,8 +60,8 @@ title: Billfold
         </div>
         <hr class="home-divider">
         <div class="home-cell-bottom">
-          <button class="button-small">Pay Now</button>
-          <button class="button-small">Send Cash</button>
+          <button class="button-small" id="pay-pay-now">Pay Now</button>
+          <button class="button-small" id="pay-send-cash">Send Cash</button>
         </div>
       </div>
 
@@ -89,9 +89,9 @@ title: Billfold
         </div>
         <hr class="home-divider">
         <div class="home-cell-bottom">
-          <button class="button-small">Nearby</button>
-          <button class="button-small">Saved</button>
-          <button class="button-small">Online</button>
+          <button class="button-small" id="deals-nearby">Nearby</button>
+          <button class="button-small" id="deals-saved">Saved</button>
+          <button class="button-small" id="deals-online">Online</button>
         </div>
       </div>
     </section>
@@ -103,7 +103,7 @@ title: Billfold
       <div class="menu-bar">
         <div class="back-icon"></div>
         <div class="menu-bar-title">Cards</div>
-        <div class="add-icon"></div>
+        <div class="add-icon" id="cards-add"></div>
       </div>
 
       <!-- Filter -->
@@ -295,7 +295,7 @@ title: Billfold
     </section>
 
     <!-- Add Card screen -->
-    <section class="add-card-screen">
+    <section class="add-card screen">
 
       <!-- Menu Bar -->
       <div class="menu-bar">
@@ -310,39 +310,81 @@ title: Billfold
       </div>
 
       <!-- Inputs -->
-      <div class="cell-section">
-        <div class="cell-section-title">Card Name</div>
-        <div class="add-card-input-sections">
-          <input type="text" class="add-card-input-line" placeholder="Name"></input>
-        </div>
+      <div class="cell-section-title">Card Name</div>
+      <input type="text" placeholder="Name">
 
-        <div class="cell-section-title">Card Number</div>           
-        <div class="add-card-input-sections">
-          <input type="text" class="add-card-input-line" placeholder="0000 00 0000"></input>
-        </div>
+      <div class="cell-section-title">Card Number</div>
+      <input type="text" placeholder="0000 0000 0000 0000" maxlength="19">
 
-        <div class="cell-section-title">Name on Card</div>
-        <div class="add-card-input-sections">
-          <input type="text" class="add-card-input-line" placeholder="First Last"></input>
-        </div>
+      <div class="cell-section-title">Name on Card</div>
+      <input type="text" placeholder="First Last">
 
-
-        <div class="cell-section-title-inline-expr">Expiration</div>
-        <div class="cell-section-title-inline-ccv">CCV</div>
-        <div class="cell-section-title-inline-fav">Favourite</div>
-
-        <div class="add-card-input-sections">
-          <input type="text" class="add-card-input-inline" placeholder="MM"></input>
-          <input type="text" class="add-card-input-inline" placeholder="YY"></input>
-          <input type="text" class="add-card-input-inline" placeholder="000"></input>
-          <input type="text" class="add-card-input-inline"></div>
-        </div>
-        <div class="submit-button-cell">
-         <button type="button" class="submit-button">Submit</button>
-       </div>
-
+      <div class="input-small-container">
+        <div class="cell-section-title">Expiration</div>
+        <input type="text" placeholder="MM" maxlength="2">
+        <input type="text" placeholder="YY" maxlength="2">
       </div>
 
+      <div class="input-small-container">
+        <div class="cell-section-title">CCV</div>
+        <input type="text" placeholder="000" maxlength="3">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Favourite</div>
+        <div class="favourite-container">
+          <div class="favourite-inactive-icon"></div>
+        </div>
+      </div>
+
+      <button class="button-large">Submit</button>
+    </section>
+
+    <!-- Edit Card screen -->
+    <section class="edit-card screen">
+
+      <!-- Menu Bar -->
+      <div class="menu-bar">
+        <div class="back-icon"></div>
+        <div class="menu-bar-title">Edit Card</div>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter">
+        <div class="filter-title">Credit</div>
+        <div class="filter-view-icon"></div>
+      </div>
+
+      <!-- Inputs -->
+      <div class="cell-section-title">Card Name</div>
+      <input type="text" placeholder="Main Credit">
+
+      <div class="cell-section-title">Card Number</div>
+      <input type="text" placeholder="4815 1623 4200 0000" maxlength="19">
+
+      <div class="cell-section-title">Name on Card</div>
+      <input type="text" placeholder="Frank Underwood">
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Expiration</div>
+        <input type="text" placeholder="02" maxlength="2">
+        <input type="text" placeholder="14" maxlength="2">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">CCV</div>
+        <input type="text" placeholder="201" maxlength="3">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Favourite</div>
+        <div class="favourite-container">
+          <div class="favourite-active-icon"></div>
+        </div>
+      </div>
+
+      <button class="button-large save">Save</button>
+      <button class="button-large delete">Delete</button>
 
     </section>
 

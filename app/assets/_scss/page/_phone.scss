@@ -21,7 +21,6 @@
 
 /* Opening Screen */
 .opening {
-  display: block;
   background: url('../img/lock.png') center no-repeat;
   background-size: 321px 569px;
   .icon {
@@ -40,9 +39,6 @@
 }
 
 /* Home Screen */
-.home {
-  //display: block;
-}
 .home-cell {
   position: relative;
   border-bottom: 1px solid $lines;
@@ -70,74 +66,32 @@
 .home-transactions { z-index: 3; }
 .home-deals { z-index: 2; }
 
-/* Cards Screen */
-.cards-screen {
-  //display: none;
-}
-
-/* Add Card Screen */
-.add-card-screen {
-  @include size(100%);
-  //display: none;
-  background-color: #F5F5F5;
-
-  .add-card-input-sections{
-    font-size: 0.9em;
-    margin-left: 10px;
-    input {
-      border-radius: 3px;
-      border: 1px solid $lines;
-      margin-right: $sidepad;
-      padding: 0 10px;
-      text-align: left;
-      &:focus {
-        outline: none !important;
-        border-color: $main;
-      }
-    }
-    .add-card-input-line {
-      @include size(97% 30px);
-    }
-    .add-card-input-inline {
-      @include size(47px 30px);
-      display: inline-block;
-    }
-  }
-  
-  .submit-button {
-    background: #A4A4A4;
-    border: none;
-    position: absolute;
-    border-radius: 3px;
-    width: 300px;
-    height: 40px;
-    color: #ffffff;
-    font-size: 0.9em;
-    &:focus {
-      outline: none !important;
-      background: $main;
-    }
-  }
-  .submit-button-cell {
-    margin: 10px;
-    padding-top: 5px;
+/* Add/Edit Card Screen */
+.favourite-container {
+  border: 1px solid $lines;
+  border-radius: $radius;
+  background-color: #fff;
+  margin-left: $sidepad;
+  padding: 5px 10px;
+  width: 43px;
+  cursor: pointer;
+  .favourite-active-icon {
+    @include size(20px 20px);
+    background: url('../img/favourite-active-icon.png') center no-repeat;
+    background-size: 20px 20px;
+    float: none;
+    margin: 0;
   }
 }
 
 /* Transactions - Cards Screen */
 .transactions-cards {
-  //display: block;
   .cell-title {
     padding-bottom: 0;
   }
   .cell-price {
     margin-top: -43px;
   }
-}
-
-/* Transactions Screen */
-.transactions {
-  //display: block;
 }
 
 /* Paid Modal */

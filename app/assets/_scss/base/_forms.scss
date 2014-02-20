@@ -1,90 +1,65 @@
-$form-border-color: $base-border-color;
-$form-border-color-hover: darken($base-border-color, 10);
-$form-border-color-focus: $base-accent-color;
-$form-border-radius: $base-border-radius;
-$form-box-shadow: inset 0 1px 3px hsla(0, 0%, 0%, 0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
-$form-font-size: $base-font-size;
-$form-font-family: $base-font-family;
-
-fieldset {
-  background: lighten($base-border-color, 10);
-  border: 1px solid $base-border-color;
-  margin: 0 0 ($base-line-height / 2) 0;
-  padding: $base-line-height;
-}
-
-input,
-label,
-select {
-  display: block;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-}
-
-label {
-  font-weight: bold;
-  margin-bottom: $base-line-height / 4;
-
-  &.required:after {
-    content: "*";
-  }
-
-  abbr {
-    display: none;
-  }
-}
-
-textarea,
-#{$all-text-inputs} {
-  @include box-sizing(border-box);
-  @include transition(border-color);
-  background-color: white;
-  border-radius: $form-border-radius;
-  border: 1px solid $form-border-color;
-  box-shadow: $form-box-shadow;
-  font-family: $form-font-family;
-  font-size: $form-font-size;
-  margin-bottom: $base-line-height / 2;
-  padding: ($base-line-height / 3) ($base-line-height / 3);
-  resize: vertical;
-  width: 100%;
-
-  &:hover {
-    border-color: $form-border-color-hover;
-  }
-
+input {
+  width: 300px;
+  margin-left: $sidepad;
+  padding: 5px 10px;
+  border: 1px solid $lines;
+  border-radius: $radius;
+  font-size: 0.9em;
   &:focus {
-    border-color: $form-border-color-focus;
-    box-shadow: $form-box-shadow-focus;
     outline: none;
+    border-color: $main;
+  }
+}
+.input-small-container {
+  padding-right: $sidepad;
+  float: left;
+  input {
+    width: 47px;
+    text-align: center;
+    &:last-child { margin-left: 0; }
   }
 }
 
-input[type="search"] {
-  @include appearance(none);
+/* Buttons */
+.button-small {
+  @include transition(opacity 0.5s ease-in);
+  @include size(88px 30px);
+  display: inline-block;
+  padding: 0;
+  border: none;
+  border-radius: $radius;
+  background-color: $main;
+  box-shadow: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 30px;
+  opacity: 0.8;
+  -webkit-transform: translateZ(0px);
+  -webkit-appearance: none;
+  &:hover {
+    opacity: 1;
+  }
 }
-
-input[type="checkbox"], input[type="radio"] {
-  display: inline;
-  margin-right: $base-line-height / 4;
+.button-large {
+  @include size(300px 40px);
+  background-color: $lines;
+  color: #fff;
+  border-radius: $radius;
+  border: none;
+  outline: none;
+  margin: $sidepad;
 }
-
-input[type="file"] {
-  width: 100%;
+.save {
+  background-color: $main;
 }
-
-select {
-  width: auto;
-  margin-bottom: $base-line-height;
+.delete {
+  background-color: $warning;
+  margin-top: 0;
 }
-
-button,
-input[type="submit"] {
-  @extend %button;
-  @include appearance(none);
+.filter {
+  @include size(100% 54px);
+  background-color: #fff;
+  border-bottom: $border;
   cursor: pointer;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
 }

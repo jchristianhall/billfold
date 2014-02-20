@@ -50,34 +50,6 @@
   background-color: $lines;
 }
 
-/* Buttons */
-.button-small {
-  @include transition(opacity 0.5s ease-in);
-  @include size(88px 30px);
-  display: inline-block;
-  padding: 0;
-  border: none;
-  border-radius: 3px;
-  background-color: $main;
-  box-shadow: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 0.8em;
-  line-height: 30px;
-  opacity: 0.8;
-  -webkit-transform: translateZ(0px);
-  -webkit-appearance: none;
-  &:hover {
-    opacity: 1;
-  }
-}
-.filter {
-  @include size(100% 54px);
-  background-color: #fff;
-  border-bottom: $border;
-  cursor: pointer;
-}
-
 /* Icons */
 .next-icon {
   @include size(8px 13px);
@@ -155,6 +127,11 @@
   margin: 15px $sidepad 0 $sidepad;
   background: url('../img/deals-icon.png') center no-repeat;
   background-size: 29px 29px;
+}
+.favourite-inactive-icon {
+  @include size(20px);
+  background: url('../img/favourite-inactive-icon.png') center no-repeat;
+  background-size: 20px 20px;
 }
 .favourite-active-icon {
   @include size(29px 28px);
