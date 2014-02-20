@@ -23,14 +23,18 @@
  */
 
 body {
+  background: url('../img/background.png') no-repeat center center fixed;
+  background-size: cover;
+  font-weight: 400;
   font-family: 'Open Sans', sans-serif;
-  font-weight: normal;
-  background-color: #ecf0f1;
 }
-.header-primary {}
+.header-primary {
+  background-color: #ecf0f1;
+  box-shadow: 1px 0 30px rgba(0,0,0,0.4);
+}
 
-.nav-primary {}
+.nav-primary { }
 
-.content-primary {}
+.content-primary { }
 
-.footer-primary {}
+.footer-primary { }

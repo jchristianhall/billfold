@@ -1,7 +1,7 @@
 input {
-  width: 300px;
   margin-left: $sidepad;
   padding: 5px 10px;
+  width: 300px;
   border: 1px solid $lines;
   border-radius: $radius;
   font-size: 0.9em;
@@ -11,8 +11,8 @@ input {
   }
 }
 .input-small-container {
-  padding-right: $sidepad;
   float: left;
+  padding-right: $sidepad;
   input {
     width: 47px;
     text-align: center;
@@ -43,23 +43,23 @@ input {
 }
 .button-large {
   @include size(300px 40px);
+  margin: $sidepad;
+  outline: none;
+  border: none;
+  border-radius: $radius;
   background-color: $lines;
   color: #fff;
-  border-radius: $radius;
-  border: none;
-  outline: none;
-  margin: $sidepad;
 }
 .save {
   background-color: $main;
 }
 .delete {
-  background-color: $warning;
   margin-top: 0;
+  background-color: $warning;
 }
 .filter {
   @include size(100% 54px);
-  background-color: #fff;
   border-bottom: $border;
+  background-color: #fff;
   cursor: pointer;
 }

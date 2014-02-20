@@ -32,8 +32,8 @@
 /* Cells */
 .cell {
   @include size(100%);
-  background-color: #fff;
   padding-left: $sidepad;
+  background-color: #fff;
   cursor: pointer;
   &:first-child {
     border-top: $border;
@@ -60,45 +60,45 @@
 }
 .filter-view-icon {
   @include size(8px 13px);
+  @include transform(rotate(90deg));
   float: right;
   margin-top: -18px;
   padding-right: 30px;
   background: url('../img/next-icon.png') center no-repeat;
   background-size: 8px 13px;
-  @include transform(rotate(90deg));
 }
 .check-icon {
   @include size(38px);
+  margin: 0 auto;
   background: url('../img/check-icon.png') center no-repeat;
   background-size: 38px 38px;
-  margin: 0 auto;
 }
 .avatar {
   @include size(71px);
+  @include position(absolute, 25px 0 0 124px);
   background: url('../img/avatar.png') center no-repeat;
   background-size: 71px 71px;
-  @include position(absolute, 25px 0 0 124px);
 }
 .settings-icon {
   @include size(25px);
+  @include position(absolute, 30px 0 0 $sidepad);
   background: url('../img/settings-icon.png') center no-repeat;
   background-size: 25px 25px;
   cursor: pointer;
-  @include position(absolute, 30px 0 0 $sidepad);
 }
 .back-icon {
   @include size(12px 21px);
+  @include position(absolute, 32px 0 0 $sidepad);
   background: url('../img/back-icon.png') center no-repeat;
   background-size: 12px 21px;
   cursor: pointer;
-  @include position(absolute, 32px 0 0 $sidepad);
 }
 .add-icon {
   @include size(25px);
+  @include position(absolute, 30px $sidepad 0 0);
   background: url('../img/add-icon.png') center no-repeat;
   background-size: 25px 25px;
   cursor: pointer;
-  @include position(absolute, 30px $sidepad 0 0);
 }
 .cards-icon {
   @include size(29px 22px);

@@ -1,38 +1,56 @@
 /* Typography */
+h1 {
+  margin: 0;
+  padding-top: 50px;
+  color: #34495e;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  font-size: 4em;
+}
+h2 {
+  margin: 0;
+  padding-bottom: 50px;
+  color: #2980b9;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-weight: 300;
+  font-size: 1.75em;
+}
 h3 {
   float: left;
   margin: 16px 0;
-  font-size: 1.15em;
   font-weight: normal;
+  font-size: 1.15em;
 }
 .menu-bar-title {
-  color: #fff;
-  font-size: 1.15em;
-  text-align: center;
   padding-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.15em;
 }
 .filter-title {
-  text-align: center;
   padding-top: 16px;
+  text-align: center;
 }
 
 /* Cells */
 .cell-section-title {
+  margin: 5px $sidepad;
   color: $subtitle;
   font-size: 0.7em;
-  margin: 5px $sidepad;
 }
 .cell-title {
-  padding: 12px 0;
   margin: 0;
-  font-size: 1.1em;
+  padding: 12px 0;
   font-weight: normal;
+  font-size: 1.1em;
 }
 .cell-subtitle {
-  font-size: 0.7em;
   margin: 0;
   padding-bottom: 12px;
   color: $subtitle;
+  font-size: 0.7em;
 }
 .cell-price {
   float: right;
@@ -42,13 +60,13 @@ h3 {
 
 /* Home */
 .home-subtitle {
+  margin: 10px 0 5px 0;
   color: $subtitle;
   font-size: 0.7em;
-  margin: 10px 0 5px 0;
 }
 .home-cell-title {
-  font-size: 0.9em;
   margin: 0;
+  font-size: 0.9em;
 }
 .home-cell-price {
   float: right;

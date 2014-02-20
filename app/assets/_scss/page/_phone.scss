@@ -24,17 +24,12 @@
   background: url('../img/lock.png') center no-repeat;
   background-size: 321px 569px;
   .icon {
-    @include transition(opacity 0.5s ease-in);
     @include size(123px 144.5px);
     @include transform(translateY(212px));
     margin: 0 auto;
     background: url('../img/icon.png') center no-repeat;
     background-size: 123px 144.5px;
-    opacity: 0.5;
     cursor: pointer;
-    &:hover {
-      opacity: 1;
-    }
   }
 }
 
@@ -68,20 +63,47 @@
 
 /* Add/Edit Card Screen */
 .favourite-container {
-  border: 1px solid $lines;
-  border-radius: $radius;
-  background-color: #fff;
   margin-left: $sidepad;
   padding: 5px 10px;
   width: 43px;
+  border: 1px solid $lines;
+  border-radius: $radius;
+  background-color: #fff;
   cursor: pointer;
   .favourite-active-icon {
     @include size(20px 20px);
-    background: url('../img/favourite-active-icon.png') center no-repeat;
-    background-size: 20px 20px;
     float: none;
     margin: 0;
+    background: url('../img/favourite-active-icon.png') center no-repeat;
+    background-size: 20px 20px;
   }
+}
+
+/* Pay Now Screen */
+.pay-now-placeholder {
+  @include size(321px 569px);
+  @include position(absolute, 0px 0 0 0);
+  background: url('../img/pay-now-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
+}
+
+/* Send Cash Screen */
+.send-cash-placeholder {
+  @include size(321px 569px);
+  @include position(absolute, 0px 0 0 0);
+  background: url('../img/send-cash-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
+}
+
+/* Pay Screen */
+.pay-placeholder {
+  @include size(321px 569px);
+  @include position(absolute, 0px 0 0 0);
+  background: url('../img/pay-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
 }
 
 /* Transactions - Cards Screen */
@@ -94,6 +116,32 @@
   }
 }
 
+/* Deals Screen */
+.deals-placeholder {
+  @include size(321px 569px);
+  @include position(absolute, 0px 0 0 0);
+  background: url('../img/deals-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
+}
+
+/* View Deals Screen */
+.view-deals-placeholder {
+  @include size(321px 569px);
+  @include position(absolute, 0px 0 0 0);
+  background: url('../img/view-deals-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
+}
+
+/* Settings Screen */
+.settings-placeholder {
+  @include size(321px 569px);
+  background: url('../img/settings-placeholder.png') center no-repeat;
+  background-size: 321px 569px;
+  cursor: pointer;
+}
+
 /* Paid Modal */
 .paid-modal {
   @include size(100% 150px);
@@ -102,9 +150,9 @@
   display: none;
   background-color: rgba(39, 174, 96, 0.6);
   p {
+    margin-bottom: 15px;
     color: #fff;
     text-align: center;
     font-size: 1.75em;
-    margin-bottom: 15px;
   }
 }

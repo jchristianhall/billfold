@@ -96,6 +96,16 @@ title: Billfold
       </div>
     </section>
 
+    <!-- Pay Now screen -->
+    <section class="pay-now screen">
+      <div class="pay-now-placeholder"></div>
+    </section>
+
+    <!-- Send Cash screen -->
+    <section class="send-cash screen">
+      <div class="send-cash-placeholder"></div>
+    </section>
+
     <!-- Cards screen -->
     <section class="cards screen">
 
@@ -162,6 +172,111 @@ title: Billfold
           <p class="cell-title">Sancorp</p>
         </div>
       </div>
+    </section>
+
+    <!-- Add Card screen -->
+    <section class="add-card screen">
+
+      <!-- Menu Bar -->
+      <div class="menu-bar">
+        <div class="back-icon"></div>
+        <div class="menu-bar-title">Add Card</div>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter">
+        <div class="filter-title">Credit</div>
+        <div class="filter-view-icon"></div>
+      </div>
+
+      <!-- Inputs -->
+      <div class="cell-section-title">Card Name</div>
+      <input type="text" placeholder="Name">
+
+      <div class="cell-section-title">Card Number</div>
+      <input type="text" placeholder="0000 0000 0000 0000" maxlength="19">
+
+      <div class="cell-section-title">Name on Card</div>
+      <input type="text" placeholder="First Last">
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Expiration</div>
+        <input type="text" placeholder="MM" maxlength="2">
+        <input type="text" placeholder="YY" maxlength="2">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">CCV</div>
+        <input type="text" placeholder="000" maxlength="3">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Favourite</div>
+        <div class="favourite-container">
+          <div class="favourite-inactive-icon"></div>
+        </div>
+      </div>
+
+      <button class="button-large">Submit</button>
+    </section>
+
+    <!-- Edit Card screen -->
+    <section class="edit-card screen">
+
+      <!-- Menu Bar -->
+      <div class="menu-bar">
+        <div class="back-icon"></div>
+        <div class="menu-bar-title">Edit Card</div>
+      </div>
+
+      <!-- Filter -->
+      <div class="filter">
+        <div class="filter-title">Credit</div>
+        <div class="filter-view-icon"></div>
+      </div>
+
+      <!-- Inputs -->
+      <div class="cell-section-title">Card Name</div>
+      <input type="text" placeholder="Main Credit">
+
+      <div class="cell-section-title">Card Number</div>
+      <input type="text" placeholder="4815 1623 4200 0000" maxlength="19">
+
+      <div class="cell-section-title">Name on Card</div>
+      <input type="text" placeholder="Frank Underwood">
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Expiration</div>
+        <input type="text" placeholder="02" maxlength="2">
+        <input type="text" placeholder="14" maxlength="2">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">CCV</div>
+        <input type="text" placeholder="201" maxlength="3">
+      </div>
+
+      <div class="input-small-container">
+        <div class="cell-section-title">Favourite</div>
+        <div class="favourite-container">
+          <div class="favourite-active-icon"></div>
+        </div>
+      </div>
+
+      <button class="button-large save">Save</button>
+      <button class="button-large delete">Delete</button>
+    </section>
+
+    <!-- Pay screen -->
+    <section class="pay screen">
+      <!-- Menu Bar -->
+      <div class="menu-bar">
+        <div class="back-icon"></div>
+        <div class="menu-bar-title">Pay</div>
+      </div>
+
+      <div class="pay-placeholder"></div>
+
     </section>
 
     <!-- Transactions - Card -->
@@ -292,100 +407,25 @@ title: Billfold
 
     <!-- Deals screen -->
     <section class="deals screen">
-    </section>
-
-    <!-- Add Card screen -->
-    <section class="add-card screen">
 
       <!-- Menu Bar -->
       <div class="menu-bar">
         <div class="back-icon"></div>
-        <div class="menu-bar-title">Add Card</div>
+        <div class="menu-bar-title">Deals</div>
+        <div class="add-icon" id="deals-add"></div>
       </div>
 
-      <!-- Filter -->
-      <div class="filter">
-        <div class="filter-title">Credit</div>
-        <div class="filter-view-icon"></div>
-      </div>
-
-      <!-- Inputs -->
-      <div class="cell-section-title">Card Name</div>
-      <input type="text" placeholder="Name">
-
-      <div class="cell-section-title">Card Number</div>
-      <input type="text" placeholder="0000 0000 0000 0000" maxlength="19">
-
-      <div class="cell-section-title">Name on Card</div>
-      <input type="text" placeholder="First Last">
-
-      <div class="input-small-container">
-        <div class="cell-section-title">Expiration</div>
-        <input type="text" placeholder="MM" maxlength="2">
-        <input type="text" placeholder="YY" maxlength="2">
-      </div>
-
-      <div class="input-small-container">
-        <div class="cell-section-title">CCV</div>
-        <input type="text" placeholder="000" maxlength="3">
-      </div>
-
-      <div class="input-small-container">
-        <div class="cell-section-title">Favourite</div>
-        <div class="favourite-container">
-          <div class="favourite-inactive-icon"></div>
-        </div>
-      </div>
-
-      <button class="button-large">Submit</button>
+      <div class="deals-placeholder"></div>
     </section>
 
-    <!-- Edit Card screen -->
-    <section class="edit-card screen">
+    <!-- View Deals screen -->
+    <section class="view-deals screen">
+      <div class="view-deals-placeholder"></div>
+    </section>
 
-      <!-- Menu Bar -->
-      <div class="menu-bar">
-        <div class="back-icon"></div>
-        <div class="menu-bar-title">Edit Card</div>
-      </div>
-
-      <!-- Filter -->
-      <div class="filter">
-        <div class="filter-title">Credit</div>
-        <div class="filter-view-icon"></div>
-      </div>
-
-      <!-- Inputs -->
-      <div class="cell-section-title">Card Name</div>
-      <input type="text" placeholder="Main Credit">
-
-      <div class="cell-section-title">Card Number</div>
-      <input type="text" placeholder="4815 1623 4200 0000" maxlength="19">
-
-      <div class="cell-section-title">Name on Card</div>
-      <input type="text" placeholder="Frank Underwood">
-
-      <div class="input-small-container">
-        <div class="cell-section-title">Expiration</div>
-        <input type="text" placeholder="02" maxlength="2">
-        <input type="text" placeholder="14" maxlength="2">
-      </div>
-
-      <div class="input-small-container">
-        <div class="cell-section-title">CCV</div>
-        <input type="text" placeholder="201" maxlength="3">
-      </div>
-
-      <div class="input-small-container">
-        <div class="cell-section-title">Favourite</div>
-        <div class="favourite-container">
-          <div class="favourite-active-icon"></div>
-        </div>
-      </div>
-
-      <button class="button-large save">Save</button>
-      <button class="button-large delete">Delete</button>
-
+    <!-- Settings screen -->
+    <section class="settings screen">
+      <div class="settings-placeholder"></div>
     </section>
 
   </div>
